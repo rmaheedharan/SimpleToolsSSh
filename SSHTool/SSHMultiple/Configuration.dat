@@ -1,0 +1,7 @@
+serverlistfile=ServerList.dat
+outputfile=sshoutput.dat
+logfile=sshxcute.log
+commandfile=Command.file
+server_user=ftpid
+server_password=target2
+maxthreads=7

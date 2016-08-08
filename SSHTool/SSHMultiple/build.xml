@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project default="create_run_jar" name="Create Runnable Jar for Project SSHMultiple">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Backup_Laptop_data/Documents/workspace/SSHMul.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="SSHrun"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/Backup_Laptop_data/Documents/workspace/SSHMultiple/bin"/>
+            <fileset dir="C:/Backup_Laptop_data/Documents/workspace/sshxcute/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/APPS/IBM/IMShared/plugins/org.junit_3.8.2.v3_8_2_v20100427-1100/junit.jar"/>
+        </jar>
+    </target>
+</project>
